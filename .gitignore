@@ -1,0 +1,21 @@
+# git log --pretty=format:"\`%h <https://www.github.com/MilanSkocic/C_extension_demo/commit/%h>\`_ - %an, %ad : %s" > out.txt
+
+# files to be ignored in all tutorials
+
+*.so
+*.dll
+*.dylib
+*.pyd
+*.pyc
+
+.idea
+
+build
+dist
+docs/build
+docs/doxygen/html/
+docs/doxygen/latex/
+docs/doxygen/xml/
+
+Pipfile
+Pipfile.lock
