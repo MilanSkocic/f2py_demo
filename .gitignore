@@ -9,6 +9,8 @@
 *.pyc
 
 .idea
+.vscode
+.mypy_cache
 
 build
 dist
