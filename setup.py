@@ -9,6 +9,7 @@ fib_c_ext = Extension(name="example.fib_c",
 
 fib_fortran_ext = Extension(name="example.fib_f90",
                             sources=["./example/src/fib.f90"],
+                            include_dirs=[numpy.get_include()],
                             define_macros=[('NPY_NO_DEPRECATED_API', 'NPY_1_7_API_VERSION')])
 
 setup(
